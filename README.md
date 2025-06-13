@@ -40,20 +40,20 @@ Kunjungi situs download resmi Anaconda: https://www.anaconda.com/download
 -Do : download installer di website anaconda resmi yah \
 -Don't : Hindari link download dari blog tidak resmi, forum, atau situs berbagi file. Hanya gunakan situs resmi Anaconda.\
 
-➤Langkah 2: Pilih Installer yang Sesuai
+➤ Langkah 2: Pilih Installer yang Sesuai
 Pilih salah satu sistem operasi yang kamu pakai (Windows, macOS, atau Linux). lalu
 pilih installer 64-Bit Graphical Installer.
 
-➤Langkah 3: Download File Installer
+➤ Langkah 3: Download File Installer
 Klik tombol Download.
 Browser akan mulai mengunduh file installer (misalnya, Anaconda3-2023.09-0-Windows-x86_64.exe). Tunggu hingga proses download selesai.
 
-➤Langkah 4: Jalankan File Installer
+➤ Langkah 4: Jalankan File Installer
 Buka folder "Downloads" di komputer Anda.
 Cari file installer yang baru saja diunduh.
 Klik dua kali pada file tersebut untuk memulai proses instalasi. Jika muncul peringatan keamanan dari Windows, klik "Run" atau "Yes".
 
-➤Langkah 5: Ikuti Petunjuk Instalasi (Installation Wizard)
+➤ Langkah 5: Ikuti Petunjuk Instalasi (Installation Wizard)
 Ini adalah bagian paling krusial. Baca setiap langkah dengan teliti.
 1. Welcome Screen: Klik "Next" untuk memulai.\
   ![TASK-SETUP-ANACONDA-UV](https://github.com/Almar-Reza-Maulana/TASK-SETUP-ANACONDA-UV/blob/main/SS/Screenshot%202025-06-12%20092026.png) 
@@ -74,11 +74,11 @@ Centang 3 kotak ini. Ini buat mastiin bahwa aplikasi yang membutuhkan Python aka
 8. Installation Progress (Proses Instalasi)⏳:
 Proses instalasi akan dimulai. Setelah instalasi selesai, klik "Next". Kamu mungkin akan melihat layar tentang "Anaconda Distribution". Klik "Next" lagi. lalu pada layar terakhir kamu bisa langsung klik "Finish".
 
-➤Langkah 6 : Cek Instalasi Anaconda kamu 🧐
-<!--[SS] -->
+➤ Langkah 6 : Cek Instalasi Anaconda kamu 🧐 \
+![TASK-SETUP-ANACONDA-UV](https://github.com/Almar-Reza-Maulana/TASK-SETUP-ANACONDA-UV/blob/main/SS/Screenshot%202025-06-13%20101242.png)\
 Untuk memastikan Anaconda kamu sudah terinstall dengan benar di sistem kamu, bisa lakukan verifikasi lewat Command Prompt (CMD) lalu ketik ```conda -- version```
 
-➤Langkah 7 : Konfigurasi Variabel Lingkungan Path 🔗
+➤ Langkah 7 : Konfigurasi Variabel Lingkungan Path 🔗
 Nah, biar gak ribet tiap kali mau panggil conda atau python dari Anaconda, kamu bisa set PATH Environment Variable biar bisa dipanggil dari terminal manapun tanpa harus buka Anaconda Navigator dulu. Caranya :
 1. Buka Pengaturan path :\
  - Tekan Win + S, cari "Edit system environment variables" lalu klik "Environment Variable" .
@@ -91,21 +91,21 @@ Nah, biar gak ribet tiap kali mau panggil conda atau python dari Anaconda, kamu 
    C:\Users\Nama_user\anaconda3\Library\bin
    C:\Users\Nama_user\anaconda3\Scripts
    ```
-   [SS]
+![TASK-SETUP-ANACONDA-UV](https://github.com/Almar-Reza-Maulana/TASK-SETUP-ANACONDA-UV/blob/main/SS/Screenshot%202025-06-13%20105139.png)
    
-➤Langkah 8 : Membuat environment conda yang baru 🏡
+➤ Langkah 8 : Membuat environment conda yang baru 🏡
 
 Kenapa kita harus buat environment yang baru? karena kita mau project yang kita buat lebih tertata rapi dan tercampur aduk dengan yang lain. Untuk melakukannya kita bisa :
-Buka terminal kembali → Jalankan perintah ini: conda create -n nama_env python=3.9 → klik y 
-[SS]
+Buka terminal kembali → Jalankan perintah ini: conda create -n nama_env python=3.9 → klik y \
+![TASK-SETUP-ANACONDA-UV](https://github.com/Almar-Reza-Maulana/TASK-SETUP-ANACONDA-UV/blob/main/SS/Screenshot%202025-06-13%20110412.png)
 
 
 ## CHAPTER 2 : Membuat UV Environmnet 
 Kenapa kita harus buat UV? karena UV biar tiap proyek punya ruang kerja sendiri tanpa campur-aduk paket. Caranya gampang kok! Teman-teman bisa ikutin langkah-langkah ini:\
 ✈︎ Langkah 1 : Buat UV baru 
 
-Buka terminal → ketik perintah ini : pip install uv
-[ss]
+Buka terminal → ketik perintah ini : pip install uv \
+![TASK-SETUP-ANACONDA-UV](https://github.com/Almar-Reza-Maulana/TASK-SETUP-ANACONDA-UV/blob/main/SS/Screenshot%202025-06-13%20120714.png)
 
 Do : Beri nama environment yang deskriptif \
 Don't: Jangan gunakan environment base untuk proyek
@@ -120,8 +120,8 @@ Ini adalah proses bikin struktur proyek dan set virtual environment supaya semua
 Cara melakukan inisialisasi UV dengan cara berikut :
 1. Buka terminal
 2. Ketik Perintah ini : uv init ghost_intellixuv setelah itu Cd ghost_intellixuv
-3. Output proyek yang udah diinisialisasi tulisannya bakal seperti ini  di C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv.
-  [SS]
+3. Output proyek yang udah diinisialisasi tulisannya bakal seperti ini  di C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv. \
+   ![TASK-SETUP-ANACONDA-UV](https://github.com/Almar-Reza-Maulana/TASK-SETUP-ANACONDA-UV/blob/main/SS/Screenshot%202025-06-13%20123716.png) 
 
 🔥 Do’s & Don’ts Pas Inisialisasi UV\
 ✅ Do’s: \
@@ -137,8 +137,8 @@ Cara melakukan inisialisasi UV dengan cara berikut :
 untuk buat dan aktifin lingkungan UV kamu bisa ikuti langkah ini :
 1. buka terminal tadi dan ketik perintah ini  : ```uv venv```
 2. jika sudah dibuat lingkungan UV nya, kamu bisa aktifin dengan ketik perintah ini : ```.venv\Scripts\activate```
-3. Hasilnya Prompt berubah ke (ghost_intellixuv) C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>.
- [SS]
+3. Hasilnya Prompt berubah ke (ghost_intellixuv) C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>. \
+  ![TASK-SETUP-ANACONDA-UV](https://github.com/Almar-Reza-Maulana/TASK-SETUP-ANACONDA-UV/blob/main/SS/Screenshot%202025-06-13%20125509.png)
 
 ✅ Do : Gunakan environment yang tadi sudah dibuat di langkah 2 chapter 2 \
 ❌ Don’t: Jangan bikin environment di dalam proyek lain
@@ -151,16 +151,16 @@ Karena kita sudah bikin UV dan udah tau juga aktifinnya. Sekarang kita lanjut in
 Caranya  yaitu :
 1. buka terminal seperti biasanya
 2. ketik perintah ini :```uv add pandas```
-3. Output dari perintah tadi hasilnya akan seperti di bawah ini :
-   [SS]
+3. Output dari perintah tadi hasilnya akan seperti di bawah ini : \
+   ![TASK-SETUP-ANACONDA-UV](https://github.com/Almar-Reza-Maulana/TASK-SETUP-ANACONDA-UV/blob/main/SS/Screenshot%202025-06-13%20125549.png)
    
 ✈︎ Langkah 5 : Menonaktifkan lingkungan UV\
 
 Karena sebelumnya kita masih aktifin lingkungan UV nya, nah sekarang kita nonaktifkan supaya sistem utama python kita bersih dan gak ada yang nyasar pas saat ngerjain proyek diluar UV. Caranya gampang banget teman-teman bisa langsung aja ketik perintah ini di terminal kamu : ```.venv\Scripts\deactivate```. Setelah itu selesai UV udah otomatis nonaktif 
 
 ## Chapter 3 : Manajemen Environment 
-Manajemen proyek ini dibuat agar teman-teman langsung satset ketika ingin cepat membuat ataupun mengelola sebuah proyek. 
-[ss]
+Manajemen proyek ini dibuat agar teman-teman langsung satset ketika ingin cepat membuat ataupun mengelola sebuah proyek. \
+ ![TASK-SETUP-ANACONDA-UV](https://github.com/Almar-Reza-Maulana/TASK-SETUP-ANACONDA-UV/blob/main/SS/Screenshot%202025-06-13%20140751.png)
 
 
 
