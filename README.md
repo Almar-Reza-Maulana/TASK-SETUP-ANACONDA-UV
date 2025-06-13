@@ -1,7 +1,7 @@
 # 🚀 Setup Environment Data Science/AI (Anaconda • Conda • UV)
 Nama : Almar Reza Maulana \
 Batch : 9 \
-No. Absen :9.050.DB2025 \
+No. Absen :9.050.DB2025 
 
 Hallo semuanya ! Selamat datang di project saya yang lain. Disini saya akan membuat tutorial lingkungan kerja Data Science/AI. Di sini kita bakal belajar:
 
