@@ -127,7 +127,8 @@ Cara melakukan inisialisasi UV dengan cara berikut :
 ✅ Do’s: \
 ✔ Gunakan nama environment yang jelas & intuitif biar gampang diingat. \
 ✔ Simpan requirements.txt buat dokumentasi paket proyek. \
-✔ Selalu aktifkan env sebelum mulai coding biar paketnya gak terinstal di sistem utama.\
+✔ Selalu aktifkan env sebelum mulai coding biar paketnya gak terinstal di sistem utama.
+
 ❌ Don’ts: \
 ✖ Jangan bikin environment di dalam proyek lain, nanti kacau balau! 🤯 \
 ✖ Jangan lupa deactivate kalau udah selesai biar terminal bersih.
