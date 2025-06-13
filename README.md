@@ -16,41 +16,44 @@ Anaconda nggak hanya menyediain interpreter Python, tapi juga sejumlah pustaka k
 Selain itu, ada juga alat-alat pendukung yang nggak kalah penting, kayak:
 - Jupyter Notebook: Biar kamu bisa interaktif coding dan coba-coba langsung.
 - Spyder: IDE buat coding Python yang nyaman.
-- Anaconda Navigator: GUI yang bikin kamu bisa ngatur environment dan install paket lewat klik-klik, tanpa harus repot dengan command line. 🚀💻\
+- Anaconda Navigator: GUI yang bikin kamu bisa ngatur environment dan install paket lewat klik-klik, tanpa harus repot dengan command line. 🚀💻
   
-➡️ Conda Conda adalah tool open source dari Anaconda yang mengelola paket dan virtual environment. Dengan conda, kamu bisa instal, update, atau hapus paket beserta dependency-nya dan membuat lingkungan kerja terpisah untuk setiap proyek sehingga tidak terjadi bentrok. Karena paketnya precompiled, instalasinya jadi mudah tanpa harus membangun dari source. Selain Python, conda juga mendukung bahasa lain.
+➡️ Conda adalah tool open source dari Anaconda yang mengelola paket dan virtual environment. Dengan conda, kamu bisa instal, update, atau hapus paket beserta dependency-nya dan membuat lingkungan kerja terpisah untuk setiap proyek sehingga tidak terjadi bentrok. Karena paketnya precompiled, instalasinya jadi mudah tanpa harus membangun dari source. Selain Python, conda juga mendukung bahasa lain.
 
-➡️ UV dalam Python biasanya merujuk ke **Virtual Environment (venv/virtualenv)**, yaitu fitur yang memungkinkan kamu membuat lingkungan kerja terpisah untuk setiap proyek. Dengan virtual environment, setiap proyek punya versi Python dan paketnya sendiri, sehingga tidak bentrok dengan proyek lain. Ini berguna banget buat manajemen dependency dan menjaga sistem tetap bersih tanpa harus install paket secara global. 🚀🐍
+➡️ UV dalam Python , yaitu fitur yang memungkinkan kamu membuat lingkungan kerja terpisah untuk setiap proyek. Dengan virtual environment, setiap proyek punya versi Python dan paketnya sendiri, sehingga tidak bentrok dengan proyek lain. Ini berguna banget buat manajemen dependency dan menjaga sistem tetap bersih tanpa harus install paket secara global. 🚀🐍
 
-## 📥 CHAPTER 1 : Download and Install Anaconda
+
+## 📥 CHAPTER 1 : Anaconda & Conda
+Anaconda dan Conda itu mirip tapi punya peran yang beda \
+✔ Anaconda adalah distribusi Python yang udah satu paket dengan banyak library untuk Data Science dan AI. Jadi, kalau kamu install Anaconda, udah otomatis dapat Python, Conda, Jupyter Notebook, pandas, NumPy, dll.\
+✔ Conda adalah package & environment manager yang ada di dalam Anaconda. Tapi, kamu bisa pakai Conda secara terpisah lewat Miniconda. Conda ini berguna buat mengatur virtual environment dan install paket tanpa ribet.
 
 Apa : Anaconda merupakan distribusi Python yang populer, yang dirancang untuk ilmu data, pembelajaran mesin, dan analisis data.\
 Kenapa : Anaconda memungkinkan kita untuk membuat dan mengelola lingkungan terpisah untuk proyek yang berbeda
 
-Do & Don'ts :
--Do : download installer di website anaconda resmi yah \
--Don't : Hindari link download dari blog tidak resmi, forum, atau situs berbagi file. Hanya gunakan situs resmi Anaconda.
-
 ## 🪜 Tahapan unduh dan instalasi anaconda
 
-Langkah 1: Kunjungi Situs Resmi Anaconda
+➤ Langkah 1: Kunjungi Situs Resmi Anaconda
 ![TASK-SETUP-ANACONDA-UV](https://github.com/Almar-Reza-Maulana/TASK-SETUP-ANACONDA-UV/blob/main/SS/Screenshot%202025-06-12%20082404.png)
 Kunjungi situs download resmi Anaconda: https://www.anaconda.com/download
 
-Langkah 2: Pilih Installer yang Sesuai
+-Do : download installer di website anaconda resmi yah \
+-Don't : Hindari link download dari blog tidak resmi, forum, atau situs berbagi file. Hanya gunakan situs resmi Anaconda.\
+
+➤Langkah 2: Pilih Installer yang Sesuai
 Pilih salah satu sistem operasi yang kamu pakai (Windows, macOS, atau Linux). lalu
 pilih installer 64-Bit Graphical Installer.
 
-Langkah 3: Download File Installer
+➤Langkah 3: Download File Installer
 Klik tombol Download.
 Browser akan mulai mengunduh file installer (misalnya, Anaconda3-2023.09-0-Windows-x86_64.exe). Tunggu hingga proses download selesai.
 
-Langkah 4: Jalankan File Installer
+➤Langkah 4: Jalankan File Installer
 Buka folder "Downloads" di komputer Anda.
 Cari file installer yang baru saja diunduh.
 Klik dua kali pada file tersebut untuk memulai proses instalasi. Jika muncul peringatan keamanan dari Windows, klik "Run" atau "Yes".
 
-Langkah 5: Ikuti Petunjuk Instalasi (Installation Wizard)
+➤Langkah 5: Ikuti Petunjuk Instalasi (Installation Wizard)
 Ini adalah bagian paling krusial. Baca setiap langkah dengan teliti.
 1. Welcome Screen: Klik "Next" untuk memulai.\
   ![TASK-SETUP-ANACONDA-UV](https://github.com/Almar-Reza-Maulana/TASK-SETUP-ANACONDA-UV/blob/main/SS/Screenshot%202025-06-12%20092026.png) 
@@ -71,11 +74,11 @@ Centang 3 kotak ini. Ini buat mastiin bahwa aplikasi yang membutuhkan Python aka
 8. Installation Progress (Proses Instalasi)⏳:
 Proses instalasi akan dimulai. Setelah instalasi selesai, klik "Next". Kamu mungkin akan melihat layar tentang "Anaconda Distribution". Klik "Next" lagi. lalu pada layar terakhir kamu bisa langsung klik "Finish".
 
-Langkah 6 : Cek Instalasi Anaconda kamu 🧐
+➤Langkah 6 : Cek Instalasi Anaconda kamu 🧐
 <!--[SS] -->
-Untuk memastikan Anaconda kamu sudah terinstall dengan benar di sistem kamu, bisa lakukan verifikasi lewat Command Prompt (CMD) lalu ketik **conda -- version**
+Untuk memastikan Anaconda kamu sudah terinstall dengan benar di sistem kamu, bisa lakukan verifikasi lewat Command Prompt (CMD) lalu ketik ```conda -- version```
 
-Langkah 7 : Konfigurasi Variabel Lingkungan Path 🔗
+➤Langkah 7 : Konfigurasi Variabel Lingkungan Path 🔗
 Nah, biar gak ribet tiap kali mau panggil conda atau python dari Anaconda, kamu bisa set PATH Environment Variable biar bisa dipanggil dari terminal manapun tanpa harus buka Anaconda Navigator dulu. Caranya :
 1. Buka Pengaturan path :\
  - Tekan Win + S, cari "Edit system environment variables" lalu klik "Environment Variable" .
@@ -90,11 +93,76 @@ Nah, biar gak ribet tiap kali mau panggil conda atau python dari Anaconda, kamu 
    ```
    [SS]
    
-Langkah 8 : Membuat environment conda yang baru 🏡
+➤Langkah 8 : Membuat environment conda yang baru 🏡
+
 Kenapa kita harus buat environment yang baru? karena kita mau project yang kita buat lebih tertata rapi dan tercampur aduk dengan yang lain. Untuk melakukannya kita bisa :
 Buka terminal kembali → Jalankan perintah ini: conda create -n nama_env python=3.9 → klik y 
 [SS]
 
-Selamat, Anaconda kamu sudah berhasil ter-install😎!
 
-## CHAPTER 2 : Membuat UV Environmnet
+## CHAPTER 2 : Membuat UV Environmnet 
+Kenapa kita harus buat UV? karena UV biar tiap proyek punya ruang kerja sendiri tanpa campur-aduk paket. Caranya gampang kok! Teman-teman bisa ikutin langkah-langkah ini:\
+✈︎ Langkah 1 : Buat UV baru 
+
+Buka terminal → ketik perintah ini : pip install uv
+[ss]
+
+Do : Beri nama environment yang deskriptif \
+Don't: Jangan gunakan environment base untuk proyek
+  
+✈︎ Langkah 2 : Menginisialisasi proyek UV
+
+🔹 Apa Itu Inisialisasi Proyek UV?
+Ini adalah proses bikin struktur proyek dan set virtual environment supaya semua paket dan versi Python terpisah dari proyek lain. Jadi proyek lo rapi, aman, dan gak kena konflik dependency!\
+🔹 Kenapa Harus Diinisialisasi?\
+✔ Biar teratur: Setiap proyek punya lingkungan sendiri tanpa ganggu sistem utama 🏗️\
+✔ Bebas dari konflik: Paket versi lama vs baru gak akan saling tabrakan 💥\
+Cara melakukan inisialisasi UV dengan cara berikut :
+1. Buka terminal
+2. Ketik Perintah ini : uv init ghost_intellixuv setelah itu Cd ghost_intellixuv
+3. Output proyek yang udah diinisialisasi tulisannya bakal seperti ini  di C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv.
+  [SS]
+
+🔥 Do’s & Don’ts Pas Inisialisasi UV\
+✅ Do’s: \
+✔ Gunakan nama environment yang jelas & intuitif biar gampang diingat. \
+✔ Simpan requirements.txt buat dokumentasi paket proyek. \
+✔ Selalu aktifkan env sebelum mulai coding biar paketnya gak terinstal di sistem utama.\
+❌ Don’ts: \
+✖ Jangan bikin environment di dalam proyek lain, nanti kacau balau! 🤯 \
+✖ Jangan lupa deactivate kalau udah selesai biar terminal bersih.
+
+✈︎ Langkah 3 : Membuat dan Mengaktifkan Lingkungan UV\
+
+untuk buat dan aktifin lingkungan UV kamu bisa ikuti langkah ini :
+1. buka terminal tadi dan ketik perintah ini  : ```uv venv```
+2. jika sudah dibuat lingkungan UV nya, kamu bisa aktifin dengan ketik perintah ini : ```.venv\Scripts\activate```
+3. Hasilnya Prompt berubah ke (ghost_intellixuv) C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>.
+ [SS]
+
+✅ Do : Gunakan environment yang tadi sudah dibuat di langkah 2 chapter 2 \
+❌ Don’t: Jangan bikin environment di dalam proyek lain
+
+✈︎ Langkah 4 : Menginstall Paket dengan UV\
+
+Karena kita sudah bikin UV dan udah tau juga aktifinnya. Sekarang kita lanjut install paket ini biar proyek nya makin power up soalnya dengan paki UV ini kita bisa menghemat waktu daripada menginstall seperti biasanya! \
+✅ Do: Gunakan uv add.\
+❌ Don't: Jangan campur UV dan pip.\
+Caranya  yaitu :
+1. buka terminal seperti biasanya
+2. ketik perintah ini :```uv add pandas```
+3. Output dari perintah tadi hasilnya akan seperti di bawah ini :
+   [SS]
+   
+✈︎ Langkah 5 : Menonaktifkan lingkungan UV\
+
+Karena sebelumnya kita masih aktifin lingkungan UV nya, nah sekarang kita nonaktifkan supaya sistem utama python kita bersih dan gak ada yang nyasar pas saat ngerjain proyek diluar UV. Caranya gampang banget teman-teman bisa langsung aja ketik perintah ini di terminal kamu : ```.venv\Scripts\deactivate```. Setelah itu selesai UV udah otomatis nonaktif 
+
+## Chapter 3 : Manajemen Environment 
+Manajemen proyek ini dibuat agar teman-teman langsung satset ketika ingin cepat membuat ataupun mengelola sebuah proyek. 
+[ss]
+
+
+
+
+
