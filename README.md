@@ -163,7 +163,7 @@ Karena sebelumnya kita masih aktifin lingkungan UV nya, nah sekarang kita nonakt
 Manajemen proyek ini dibuat agar teman-teman langsung satset ketika ingin cepat membuat ataupun mengelola sebuah proyek. \
  ![TASK-SETUP-ANACONDA-UV](https://github.com/Almar-Reza-Maulana/TASK-SETUP-ANACONDA-UV/blob/main/SS/Screenshot%202025-06-13%20140751.png)
 
-
-
-
+ ## 🚀 Penutup
+Dengan memahami cara setup environment menggunakan Anaconda, Conda, dan UV, kita bisa memastikan proyek Data Science/AI tetap rapi, terisolasi, dan bebas konflik dependency.
+Manajemen environment bukan cuma soal menghindari error, tapi juga soal efisiensi dan fleksibilitas dalam mengelola proyek. Dengan langkah-langkah yang sudah dibahas di repository ini, kita bisa lebih mudah menyiapkan lingkungan kerja yang stabil dan siap untuk eksplorasi lebih lanjut. Terima Kasih sudah melihat repository ini 😊
 
