@@ -1,3 +1,17 @@
+## Pengenalan Anaconda, Conda , dan UV
+➡️ Anaconda adalah distribusi Python yang super populer, dikembangin sama Anaconda, Inc. yang spesifik banget buat kebutuhan ilmu data dan analisis numerik. Dia dirancang untuk jadi "toolkit lengkap" bagi para ilmuwan data, biar semua yang kamu butuhin udah ada dalam satu paket. 😎🐍\
+Apa aja sih isinya?\
+Anaconda nggak hanya menyediain interpreter Python, tapi juga sejumlah pustaka keren seperti:
+- NumPy & Pandas: Buat olah dan analisis data.
+- Matplotlib: Buat visualisasi data yang kece.
+- SciPy & Scikit-learn: Buat analisis numerik dan pembelajaran mesin.
+Selain itu, ada juga alat-alat pendukung yang nggak kalah penting, kayak:
+- Jupyter Notebook: Biar kamu bisa interaktif coding dan coba-coba langsung.
+- Spyder: IDE buat coding Python yang nyaman.
+- Anaconda Navigator: GUI yang bikin kamu bisa ngatur environment dan install paket lewat klik-klik, tanpa harus repot dengan command line. 🚀💻\
+  
+➡️ Conda Conda adalah tool open source dari Anaconda yang mengelola paket dan virtual environment. Dengan conda, kamu bisa instal, update, atau hapus paket beserta dependency-nya dan membuat lingkungan kerja terpisah untuk setiap proyek sehingga tidak terjadi bentrok. Karena paketnya precompiled, instalasinya jadi mudah tanpa harus membangun dari source. Selain Python, conda juga mendukung bahasa lain.
+
 # 🚀 Setup Environment Data Science/AI (Anaconda • Conda • UV)
 
 Hallo semuanya ! Selamat datang di project saya yang lain. Disini saya akan membuat tutorial lingkungan kerja Data Science/AI paling **gaul** dan **gampang** dimengerti. Di sini kita bakal belajar:
